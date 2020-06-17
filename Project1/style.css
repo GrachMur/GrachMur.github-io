@@ -1,0 +1,71 @@
+html, body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+   text-align: center;
+    
+}
+.page-description{
+    border: 1px solid #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+body{
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.gallery-item{
+    border: 5px solid #fff;
+    margin: 40px;
+    
+}
+.container{
+    margin: auto;
+    max-width: 1440px;
+}
+ul, li{
+    display: inline;
+}
+.contact-btn{
+    float: right;
+}
+.nav{
+    background: #fff;
+    margin: 0px;
+    padding: 20px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    
+}
+li{
+    margin-right: 10px;
+}
+.contact-btn{
+    border: 1px solid #000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.contact-btn>a{
+    cursor: pointer;
+    position: relative;
+}
+.contact-btn>a:hover{
+    top: 2px;
+}
+
